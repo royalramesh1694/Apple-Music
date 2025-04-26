@@ -30,8 +30,8 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOGGER_ID
-                                and i.chat.id != -1001735663878
-                                and i.chat.id != -1001735663878
+                                and i.chat.id != -1002006121442
+                                and i.chat.id != -1001939309491
                             ):
                                 if left == 20:
                                     continue
@@ -52,7 +52,8 @@ asyncio.create_task(auto_leave())
 
 async def auto_end():
     while not await asyncio.sleep(5):
-        if not await is_autoend():
+        ender = await is_autoend()
+        if not ender:
             continue
         for chat_id in autoend:
             timer = autoend.get(chat_id)
