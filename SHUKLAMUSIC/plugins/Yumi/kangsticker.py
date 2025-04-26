@@ -61,7 +61,7 @@ async def sticker_image(_, message: Message):
     await m.delete()
     os.remove(f)
 #----------------
-@app.on_message(filters.command("kang"))
+@app.on_message(filters.command("xkang"))
 @capture_err
 async def kang(client, message: Message):
     if not message.reply_to_message:
