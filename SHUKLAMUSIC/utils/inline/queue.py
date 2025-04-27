@@ -70,15 +70,22 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="• ʀᴇsᴜᴍᴇ •", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="• ᴘᴀᴜsᴇ •", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
+
         [
-            InlineKeyboardButton(text="• sᴋɪᴘ •", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="• sᴛᴏᴘ •", callback_data=f"ADMIN Stop|{chat_id}"),
-        ],
-        [
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
+            InlineKeyboardButton(
+                text="💕 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 🦋", url=f"https://t.me/HeartBeat_Offi",
+            ),
+            InlineKeyboardButton(
+                text="💕 𝐂𖽻𖽖𖾓 🦋", url=f"https://t.me/HeartBeat_Muzic",
+            ),
+            InlineKeyboardButton(
+                text="💕 𝐇𖽞𖾘𖽳 🦋", url=f"https://t.me/{app.username}?start=help"
+            )
         ],
     ]
     return buttons
