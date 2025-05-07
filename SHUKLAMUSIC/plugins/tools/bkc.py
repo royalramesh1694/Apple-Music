@@ -85,7 +85,7 @@ async def hot(_, message):
 
 ########## SEXY 
 
-@app.on_message(filters.command("sexy"))
+@app.on_message(filters.command("xsexy"))
 async def sexy(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
@@ -127,7 +127,7 @@ async def gay(_, message):
 )
 
 ########### LESBIAN
-@app.on_message(filters.command("lesbian"))
+@app.on_message(filters.command("xlesbian"))
 async def lesbian(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
@@ -149,7 +149,7 @@ async def lesbian(_, message):
 
 ########### BOOBS
 
-@app.on_message(filters.command("boob"))
+@app.on_message(filters.command("xboob"))
 async def boob(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
@@ -171,7 +171,7 @@ async def boob(_, message):
 
 ######### COCK
 
-@app.on_message(filters.command("cock"))
+@app.on_message(filters.command("xcock"))
 async def cock(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
