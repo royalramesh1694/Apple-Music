@@ -7,7 +7,7 @@ from SHUKLAMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
-@app.on_callback_query(filters.regex("livestream", "stream", "live") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("stream", "live") & ~BANNED_USERS)
 @languageCB
 async def play_live_stream(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
