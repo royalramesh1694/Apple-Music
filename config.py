@@ -91,8 +91,8 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "99999
 # --------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565aed")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b58200860623ef19")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "487064a94b42419987704fe395492701")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "ec6615520a9d47d7865ec1e08b39915b")
 # ----------------------------------------------------------------------------------
 
 
