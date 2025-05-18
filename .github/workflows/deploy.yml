@@ -29,10 +29,10 @@ jobs:
           node-version: lts/*
 
       - name: Install step
-        run: "npm install"
+        run: "pip3 install --no-cache-dir -U -r requirements.txt"
 
       - name: Build step
-        run: "npm run build"
+        run: "bash start"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
@@ -40,5 +40,5 @@ jobs:
           project: "apple-music"
           entrypoint: "jsr:@deno/nextjs-start"
           root: "."
-          include: .next, public
+          
           
