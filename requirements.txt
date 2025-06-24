@@ -19,7 +19,8 @@ emojis
 ffmpeg-python
 Faker
 future==1.0.0
-git+https://github.com/AsmSafone/SafoneAPI
+#git+https://github.com/AsmSafone/SafoneAPI
+SafoneAPI
 gitpython
 gpytranslate
 gtts
@@ -65,5 +66,7 @@ unidecode
 wget
 youtube-search
 youtube-search-python
-git+https://github.com/doraemon890/pyrogram
-git+https://github.com/yt-dlp/yt-dlp
+#git+https://github.com/doraemon890/pyrogram
+pyrogram
+#git+https://github.com/yt-dlp/yt-dlp
+yt-dlp
